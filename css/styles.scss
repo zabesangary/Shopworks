@@ -21,6 +21,12 @@ h6 {
   color: $subheadding;
   font-weight: 600;
 }
+hr {
+  width: 72.8%;
+  right: -70px;
+  bottom: -2px;
+  position: absolute;
+}
 
 #heading h1 {
   position: relative;
@@ -332,7 +338,7 @@ button {
 }
 
 footer {
-  border-top: 1px solid;
+
   padding-bottom: 55px;
 
   p {
