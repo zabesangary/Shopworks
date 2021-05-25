@@ -221,7 +221,8 @@ button {
   background-size: contain;
   width: 337px;
   height: 156px;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  padding-bottom: 250px; }
 
 .education {
   padding: 34px 0; }
