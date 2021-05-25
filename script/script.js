@@ -35,6 +35,6 @@ function toggleText() {
 
                 // Change the text on button
                 // to 'Show Less'
-                buttonText.innerHTML = "Show Less";
+                buttonText.innerHTML = "Show less skills";
             }
         }
