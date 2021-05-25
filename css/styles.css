@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif !important; }
+
+* box-sizing border-box html {
+  scroll-behavior: smooth; }
+
+h1,
+h3 {
+  color: #252525;
+  padding: 10px 0; }
+
+h6 {
+  color: #a82a2a;
+  font-weight: 600; }
+
+#heading h1 {
+  position: relative;
+  animation-name: heading;
+  animation-duration: 3s;
+  animation-fill-mode: forwards; }
+
+@keyframes heading {
+  0% {
+    top: -70px; }
+  100% {
+    top: 200; } }
+#about-countent {
+  position: relative;
+  animation-name: about-countent;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  padding-top: 40px; }
+
+@keyframes about-countent {
+  0% {
+    right: -1000px; }
+  100% {
+    right: 0; } }
+.header-border {
+  width: 8%;
+  border-bottom: 5px solid black;
+  position: relative;
+  bottom: 9px; }
+
+.img_avatar img {
+  border-radius: 50%;
+  width: 100px;
+  margin-right: 0;
+  float: right; }
+
+.menu {
+  background: #2f373b;
+  color: white;
+  padding-top: 50px;
+  float: right;
+  text-transform: uppercase;
+  font-weight: 500; }
+
+@media all and (max-width: 500px) {
+  .menu:nth-child(1) {
+    background: none;
+    color: black; } }
+.borderBottom {
+  border-top: 1px solid #ffffff;
+  width: 140px;
+  float: right;
+  text-align: right; }
+
+.wrapper .mdi {
+  font-size: 100px;
+  color: #d5393d;
+  padding: 0 70px; }
+
+.wrapper {
+  display: flex;
+  text-align: center; }
+  @media all and (max-width: 768px) {
+    .wrapper {
+      flex-wrap: wrap;
+      text-align: inherit; } }
+
+.bullet-wrapper {
+  padding-bottom: 50px; }
+
+.label {
+  color: #c10c0ce3;
+  text-transform: uppercase; }
+
+.cirles {
+  padding-bottom: 90px;
+  vertical-align: middle; }
+  .cirles .label div:nth-child(2) {
+    text-transform: none; }
+
+.bold {
+  font-weight: 500; }
+
+.grey-background {
+  background-color: #efefef; }
+
+.mobile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+  text-indent: 40px; }
+  .mobile:after {
+    content: url("../Images/mobile-alt-solid.svg");
+    display: block;
+    width: 8px;
+    position: absolute;
+    top: 3px;
+    text-indent: 11px; }
+
+.email {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+  text-indent: 40px; }
+  .email :after {
+    content: url("../Images/envelope-regular.svg");
+    width: 10px;
+    position: absolute;
+    top: 3px;
+    text-indent: 10px; }
+
+.circle1,
+.circle2,
+.circle3,
+.circle4 {
+  background: black;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 46px;
+  margin: 30px 35px;
+  vertical-align: middle; }
+  .circle1:hover,
+  .circle2:hover,
+  .circle3:hover,
+  .circle4:hover {
+    background-color: #000;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    box-shadow: 0 1px 0 3px #2d2d2d; }
+
+.cirles .label {
+  font-size: 12px; }
+
+.label:nth-child(3) {
+  color: green; }
+
+.date {
+  color: #ae2427;
+  padding: 0 25px; }
+  @media all and (max-width: 768px) {
+    .date {
+      font-size: 11px; } }
+
+.bar {
+  background-color: #f3f3f3;
+  max-width: 90%;
+  height: 10px;
+  margin: 35px 0;
+  text-transform: uppercase; }
+  .bar span {
+    position: absolute;
+    right: 0;
+    margin-top: -15px; }
+
+.fill {
+  background-color: #2f373b;
+  height: 10px; }
+
+.tag {
+  position: relative;
+  top: 11px; }
+
+button {
+  background: white;
+  padding: 7px 17px;
+  border: 1px solid;
+  border-radius: 4px !important; }
+
+.case0 {
+  background-image: url("../Images/pelvicmotion.png");
+  background-size: contain;
+  width: 337px;
+  height: 156px;
+  background-repeat: no-repeat; }
+
+.case1 {
+  background-image: url("../Images/nias.png");
+  background-size: contain;
+  width: 337px;
+  height: 156px;
+  background-repeat: no-repeat; }
+
+.case2 {
+  background-image: url("../Images/rijksmus.png");
+  background-size: contain;
+  width: 337px;
+  height: 156px;
+  background-repeat: no-repeat; }
+
+.case3 {
+  background-image: url("../Images/breda.png");
+  background-size: contain;
+  width: 337px;
+  height: 156px;
+  background-repeat: no-repeat; }
+
+.case4 {
+  background-image: url("../Images/D_case-overview.jpg");
+  background-size: contain;
+  width: 337px;
+  height: 156px;
+  background-repeat: no-repeat; }
+
+.education {
+  padding: 34px 0; }
+  .education span {
+    position: absolute;
+    right: 0;
+    margin-top: -35px;
+    font-weight: 700; }
+  @media all and (max-width: 768px) {
+    .education h3 {
+      font-size: 15px; } }
+  @media all and (max-width: 768px) {
+    .education h6 {
+      font-size: 11px; } }
+
+#moreText {
+  /* Display nothing for the element */
+  display: none; }
+
+.work {
+  padding: 30px 0; }
+  .work span {
+    position: absolute;
+    right: 0;
+    font-weight: 700; }
+
+.portfolio {
+  margin-top: 50px; }
+
+.link {
+  text-align: center;
+  position: relative;
+  top: 76px; }
+  .link a {
+    padding: 6px 10px;
+    background: #fff;
+    color: #000; }
+
+footer {
+  border-top: 1px solid;
+  padding-bottom: 55px; }
+  footer p {
+    font-weight: 800;
+    color: #929292;
+    letter-spacing: 1px; }
+  footer .home-address {
+    color: #8a8a8a; }
+  footer .email-address {
+    color: #c9c9c9;
+    font-weight: 300; }
+
+.link {
+  position: relative;
+  left: 69%;
+  transform: translate(-50%, -50%); }
+  .link a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all 0.35s; }
+  .link a span {
+    position: relative;
+    z-index: 2; }
+  .link a:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #2f373b;
+    transition: all 0.35s; }
+  .link a:hover {
+    color: #ffffff;
+    text-decoration: none; }
+  .link a:hover:after {
+    width: 100%; }
+
+.menu a {
+  font-size: 10px;
+  color: grey; }
+
+.description p {
+  font-size: 10px; }
+
+/*# sourceMappingURL=styles.css.map */
