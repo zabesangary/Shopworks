@@ -21,7 +21,7 @@ function toggleText() {
 
                 // Change the text on button to
                 // 'Show More'
-                buttonText.innerHTML = "Show less skills";
+                buttonText.innerHTML = "Show more skills";
             }
 
 
