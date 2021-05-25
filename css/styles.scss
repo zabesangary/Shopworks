@@ -122,14 +122,7 @@ hr {
   // line-height: 30pt;
 }
 
-.cirles {
-  padding-bottom: 90px;
-  vertical-align: middle;
 
-  .label div:nth-child(2) {
-    text-transform: none;
-  }
-}
 
 .bold {
   font-weight: 500;
@@ -171,7 +164,23 @@ hr {
     text-indent: 10px;
   }
 }
-
+.cirles {
+  padding-bottom: 90px;
+  vertical-align: middle;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 45px;
+  .label div:nth-child(2) {
+    text-transform: none;
+  }
+  .label {
+    color: $heading;
+    font-size: 12px;
+  }
+  @media all and (max-width: 768px) {
+    margin-left: auto;
+  }
+}
 .circle1,
 .circle2,
 .circle3,
@@ -195,13 +204,7 @@ hr {
   }
 }
 
-.cirles .label {
-  font-size: 12px;
-}
 
-.label:nth-child(3) {
-  color: green;
-}
 
 .date {
   color: #ae2427;
