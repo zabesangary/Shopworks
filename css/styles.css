@@ -16,6 +16,11 @@ h6 {
   color: #a82a2a;
   font-weight: 600; }
 
+p {
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 1.5; }
+
 hr {
   width: 72.8%;
   right: -70px;
@@ -24,7 +29,7 @@ hr {
   @media all and (max-width: 768px) {
     hr {
       width: 100%;
-      right: 0px; } }
+      right: 0; } }
 
 #heading h1 {
   position: relative;
@@ -214,10 +219,6 @@ hr {
 .tag {
   position: relative;
   top: 11px; }
-
-p {
-  font-weight: 300;
-  letter-spacing: 0.5px; }
 
 button {
   background: white;

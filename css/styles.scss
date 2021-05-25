@@ -22,14 +22,20 @@ h6 {
   font-weight: 600;
 }
 
+p {
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+
 hr {
   width: 72.8%;
   right: -70px;
   bottom: -2px;
   position: absolute;
-  @media all and (max-width: 768px){
+  @media all and (max-width: 768px) {
     width: 100%;
-    right: 0px;
+    right: 0;
   }
 }
 
@@ -92,11 +98,9 @@ hr {
   }
 }
 @media all and (max-width: 768px) {
-
   .menu:nth-child(1) {
     background: none;
     color: black;
-
   }
 }
 
@@ -117,8 +121,8 @@ hr {
   display: flex;
   text-align: center;
   -webkit-justify-content: space-between;
-	-ms-flex-pack: space-between;
-	justify-content: space-between;
+  -ms-flex-pack: space-between;
+  justify-content: space-between;
   @media all and (max-width: 768px) {
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
@@ -157,6 +161,7 @@ hr {
     position: relative;
     bottom: 15px;
   }
+
   &:after {
     content: url("../Images/mobile-alt-solid.svg");
     display: block;
@@ -165,7 +170,6 @@ hr {
     top: 3px;
     text-indent: 11px;
   }
-
 }
 
 .email {
@@ -262,10 +266,7 @@ hr {
   position: relative;
   top: 11px;
 }
-p {
-  font-weight: 300;
-      letter-spacing: 0.5px;
-}
+
 button {
   background: white;
   padding: 7px 17px;
@@ -349,7 +350,6 @@ button {
     position: absolute;
     right: 0;
     font-weight: 700;
-
   }
 }
 
