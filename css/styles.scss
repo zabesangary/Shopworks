@@ -8,7 +8,9 @@ body {
 * box-sizing border-box html {
   scroll-behavior: smooth;
 }
-
+p {
+   line-height: 1.375rem;
+}
 h1,
 h3 {
   color: #252525;
@@ -400,4 +402,9 @@ footer {
   p {
     font-size: 10px;
   }
+}
+
+.job-title {
+  color: #252525;
+  font-weight: 600;
 }
