@@ -211,7 +211,7 @@ button {
   background: white;
   padding: 7px 17px;
   border: 1px solid;
-  border-radius: 4px !important; }
+  border-radius: 1px !important; }
 
 .case0 {
   background-image: url("../Images/pelvicmotion.png");

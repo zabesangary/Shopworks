@@ -13,7 +13,7 @@ function toggleText() {
 
             if (points.style.display === "none") {
 
-      
+
                 showMoreText.style.display = "none";
 
                 // Show the dots after the text
@@ -21,7 +21,7 @@ function toggleText() {
 
                 // Change the text on button to
                 // 'Show More'
-                buttonText.innerHTML = "Show More";
+                buttonText.innerHTML = "Show less skills";
             }
 
 
