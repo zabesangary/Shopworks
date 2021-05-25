@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import 'colors.scss';
 
 body {
   margin: 0;
@@ -8,12 +9,10 @@ body {
 * box-sizing border-box html {
   scroll-behavior: smooth;
 }
-p {
-   line-height: 1.375rem;
-}
+
 h1,
 h3 {
-  color: #252525;
+  color:$heading-color;
   padding: 10px 0;
 }
 
