@@ -93,7 +93,8 @@ hr {
 
 .label {
   color: #c10c0ce3;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-weight: 600; }
 
 .bold {
   font-weight: 500; }
@@ -128,19 +129,21 @@ hr {
     top: 3px;
     text-indent: 10px; }
 
-.cirles {
+.circles {
   padding-bottom: 90px;
   vertical-align: middle;
   display: flex;
   justify-content: space-around;
   margin-left: 45px; }
-  .cirles .label div:nth-child(2) {
-    text-transform: none; }
-  .cirles .label {
+  .circles .label div:nth-child(2) {
+    text-transform: none;
+    font-weight: 300;
+    color: #a6a6a6; }
+  .circles .label {
     color: #252525;
     font-size: 12px; }
   @media all and (max-width: 768px) {
-    .cirles {
+    .circles {
       margin-left: auto; } }
 
 .circle1,
