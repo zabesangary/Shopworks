@@ -68,6 +68,9 @@ hr {
   float: right;
   text-transform: uppercase;
   font-weight: 500; }
+  @media all and (max-width: 768px) {
+    .menu {
+      padding-top: 10px; } }
 
 @media all and (max-width: 768px) {
   .menu:nth-child(1) {
@@ -112,6 +115,10 @@ hr {
   border-radius: 50%;
   background-color: black;
   text-indent: 40px; }
+  @media all and (max-width: 575px) {
+    .mobile {
+      position: relative;
+      bottom: 15px; } }
   .mobile:after {
     content: url("../Images/mobile-alt-solid.svg");
     display: block;
@@ -178,7 +185,8 @@ hr {
   padding: 0 25px; }
   @media all and (max-width: 768px) {
     .date {
-      font-size: 11px; } }
+      font-size: 11px;
+      margin-top: -15px; } }
 
 .bar {
   background-color: #f3f3f3;
