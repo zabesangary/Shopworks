@@ -9,7 +9,8 @@ body {
 h1,
 h3 {
   color: #252525;
-  padding: 10px 0; }
+  padding: 10px 0;
+  text-transform: uppercase; }
 
 h6 {
   color: #a82a2a;
@@ -58,7 +59,7 @@ h6 {
   text-transform: uppercase;
   font-weight: 500; }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 768px) {
   .menu:nth-child(1) {
     background: none;
     color: black; } }
@@ -314,6 +315,12 @@ footer {
 
 .job-title {
   color: #252525;
-  font-weight: 600; }
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.education h6 {
+  color: grey;
+  font-weight: 100 !important;
+  font-style: italic; }
 
 /*# sourceMappingURL=styles.css.map */
