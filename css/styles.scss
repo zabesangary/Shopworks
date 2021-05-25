@@ -262,7 +262,10 @@ hr {
   position: relative;
   top: 11px;
 }
-
+p {
+  font-weight: 300;
+      letter-spacing: 0.5px;
+}
 button {
   background: white;
   padding: 7px 17px;
@@ -444,6 +447,7 @@ footer {
   color: $heading;
   font-weight: 600;
   text-transform: uppercase;
+  padding-top: 15px;
 }
 
 .education h6 {
