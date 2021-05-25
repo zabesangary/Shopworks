@@ -12,13 +12,13 @@ body {
 
 h1,
 h3 {
-  color: $heading-color;
+  color: $heading;
   padding: 10px 0;
   text-transform: uppercase;
 }
 
 h6 {
-  color: #a82a2a;
+  color: $subheadding;
   font-weight: 600;
 }
 
@@ -70,7 +70,7 @@ h6 {
 }
 
 .menu {
-  background: #2f373b;
+  background: $side-menu;
   color: white;
   padding-top: 50px;
   float: right;
@@ -85,7 +85,7 @@ h6 {
 }
 
 .borderBottom {
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid $white;
   width: 140px;
   float: right;
   text-align: right;
@@ -182,8 +182,8 @@ h6 {
   vertical-align: middle;
 
   &:hover {
-    background-color: #000;
-    border: 3px solid #FFF;
+    background-color: $black;
+    border: 3px solid $white;
     border-radius: 50%;
     box-shadow: 0 1px 0 3px #2d2d2d;
   }
@@ -326,8 +326,8 @@ button {
 
   a {
     padding: 6px 10px;
-    background: #fff;
-    color: #000;
+    background: $white;
+    color: $black;
   }
 }
 
@@ -384,7 +384,7 @@ footer {
   }
 
   a:hover {
-    color: #ffffff;
+    color: $white;
     text-decoration: none;
   }
 
@@ -405,7 +405,7 @@ footer {
 }
 
 .job-title {
-  color: #252525;
+  color: $heading;
   font-weight: 600;
   text-transform: uppercase;
 }
