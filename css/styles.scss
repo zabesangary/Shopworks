@@ -411,11 +411,12 @@ footer {
 }
 
 .education h6 {
-
-
-    color: grey;
-    font-weight: 100!important;
-    font-style: italic;
-    
-
+  color: grey;
+  font-weight: 300 !important;
+  font-style: italic;
+  font-size: 0.7em;
 }
+
+.education h3 {
+    padding-top: 50px!important;
+  }
